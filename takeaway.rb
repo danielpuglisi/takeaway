@@ -2,10 +2,10 @@
 # Take Away Game v0.1
 #
 # Author:      Daniel Puglisi
-# Description: Take Away is a simple singleplayer console game. Your enemy is the CPU. You 
-#              start with a random number of coins and have to take one, two or three coins out. 
-#              Then it's CPU's turn. CPU takes one, two or three. Then it's your turn. 
-#              This goes on as long you or the CPU can take the last coin out. 
+# Description: Take Away is a simple singleplayer console game. Your enemy is the CPU. You
+#              start with a random number of coins and have to take one, two or three coins out.
+#              Then it's CPU's turn. CPU takes one, two or three. Then it's your turn.
+#              This goes on as long you or the CPU can take the last coin out.
 #              The player who can take out the last coin, wins the game.
 #
 
@@ -56,7 +56,7 @@ def turn(turn_number)
       # Get a random number
       cpu_number = 1 + rand(3)
     end
-    
+
     # Substract cpu number from turn number
     turn_number -= cpu_number
     # Print out NPC's turn
